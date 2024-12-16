@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name            = "cogs118b"
+version         = "0.0.0"
+description     = "COGS 118B Project"
+readme          = "README.md"
+requires-python = ">=3.8"
+license         = { file = "LICENSE" }
+authors         = [{ name = "Jeremy  Nguyen", email = "hi@jeremy.ng" }]
+keywords        = ["cogs118b", "project", "python"]
+dependencies    = ["black", "numpy", "pandas"]
+
+[project.urls]
+Repository = "https://github.com/jeremy-code/cog118b.git"
+Issues     = "https://github.com/me/cogs118b/issues"

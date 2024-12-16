@@ -1,0 +1,14 @@
+{
+  /* Visit https://code.visualstudio.com/docs/getstarted/settings to read more about this file */
+
+  "python.defaultInterpreterPath": "./.venv/bin/python",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "standard",
+
+  "pylint.importStrategy": "fromEnvironment",
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
